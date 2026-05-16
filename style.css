@@ -35,6 +35,15 @@ html,body{height:100%;width:100%;overflow:hidden;font-family:'Rajdhani',sans-ser
 }
 #targetOverlay{
   transition:opacity .3s ease, transform .3s ease;
+   position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:65%;
+  opacity:0.35;
+  pointer-events:none;
+  z-index:3;
+  mix-blend-mode:screen;
 }
 
 #targetOverlay.hidden{
