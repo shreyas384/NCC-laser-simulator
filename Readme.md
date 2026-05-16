@@ -26,7 +26,7 @@
 
 ## 📲 Live Demo (GitHub Pages)
 
-> `https://<your-username>.github.io/ncc-laser-simulator/`
+> `https://github.com/shreyas384/NCC-laser-simulator.git`
 
 ## 🛠️ Tech Stack
 
