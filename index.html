@@ -44,7 +44,17 @@ html,body{height:100%;width:100%;overflow:hidden;font-family:'Rajdhani',sans-ser
   90%{opacity:.2}
   100%{transform:translateY(-100px) scale(1);opacity:0}
 }
+#targetOverlay{
+  transition:opacity .3s ease, transform .3s ease;
+}
 
+#targetOverlay.hidden{
+  opacity:0;
+}
+
+#targetOverlay.setup-zoom{
+  transform:translate(-50%,-50%) scale(1.05);
+}
 /* ── SCREENS ── */
 .screen{display:none;position:absolute;inset:0;flex-direction:column;overflow:hidden;z-index:1;padding-top:var(--safe-top);padding-bottom:var(--safe-bot)}
 .screen.active{display:flex;animation:fadeIn .4s ease}
@@ -550,7 +560,23 @@ input[type=range]::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;
     <button class="btn btn-outline btn-full" style="margin-bottom:1.5rem" onclick="goSimulatorMode()">USE SIMULATOR (NO CAMERA)</button>
   </div>
 </div>
-
+<!-- TARGET OVERLAY -->
+<img 
+  id="targetOverlay"
+  src="assets/target_board.png"
+  alt="Target Overlay"
+  style="
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:65%;
+    opacity:0.28;
+    pointer-events:none;
+    z-index:2;
+    mix-blend-mode:screen;
+  "
+>
 <!-- ═══ SETUP ═══ -->
 <div class="screen" id="screen-setup">
   <div class="topbar">
