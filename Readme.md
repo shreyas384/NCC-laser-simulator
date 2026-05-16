@@ -1,39 +1,137 @@
 # 🎯 NCC Smart Laser Shooting Simulator
 
-> A web-based smart laser shot practice system for NCC cadets — works on any phone or tablet, no installation needed.
+A futuristic AI-powered laser shooting practice simulator designed for NCC cadets and beginner shooters.
 
-![NCC](https://img.shields.io/badge/NCC-Smart%20Laser%20Simulator-00cfff?style=for-the-badge)
-![PWA](https://img.shields.io/badge/PWA-Ready-brightgreen?style=for-the-badge)
-![Offline](https://img.shields.io/badge/Works-Offline-orange?style=for-the-badge)
+This project provides a low-cost, portable, and safe alternative to traditional shooting practice using:
+- Laser detection
+- Computer vision concepts
+- Real-time scoring
+- Training feedback
+- Camera-based target alignment
+- Performance analytics
 
-## ✨ Features
+---
 
-- 🎯 **6 Training Modes** — Bullseye, Rapid Fire, Silhouette, Standing, Prone, Free Practice
-- 📷 **Live Camera Detection** — Detects real laser pointer shots using phone camera
-- 🖥️ **Simulator Mode** — No camera needed, tap the target to fire
-- 📊 **Technique Analytics** — Sight alignment, trigger control, breath control, follow-through
-- 🏆 **Olympics Benchmark** — Compare your accuracy with Olympic athletes
-- 📥 **Excel Export** — Download full session report as .xlsx
-- 📱 **PWA** — Install on home screen, works offline
+## 🚀 Features
 
-## 🚀 How to Use
+### ✅ Camera-Based Laser Detection
+- Detects laser hits using mobile/device camera
+- Adjustable sensitivity controls
+- Live target alignment setup
 
-1. Open `index.html` in a browser — or host on GitHub Pages
-2. Enter cadet name, rank, and unit
-3. Select a training mode and configure shots
-4. Use **Camera Mode** (real laser) or **Simulator Mode** (tap to fire)
-5. View detailed results and download Excel report
+### ✅ Transparent Target Overlay
+- Standard NCC target overlay for setup calibration
+- Helps align real-world target boards accurately
 
-## 📲 Live Demo (GitHub Pages)
+### ✅ Multiple Training Modes
+- Bullseye
+- Rapid Fire
+- Silhouette
+- Standing
+- Prone
+- Free Practice
 
-> `https://github.com/shreyas384/NCC-laser-simulator.git`
+### ✅ Real-Time Session Analytics
+- Live score tracking
+- Accuracy monitoring
+- Shot grouping analysis
+- Performance breakdown
 
-## 🛠️ Tech Stack
+### ✅ Simulator Mode
+Practice even without a laser setup using:
+- Interactive digital target
+- AI-generated shot simulation
+- Accuracy statistics
 
-- Vanilla HTML / CSS / JavaScript
-- Camera API (`getUserMedia`)
-- Canvas API (laser detection)
-- SheetJS (Excel export)
-- PWA (Service Worker + Manifest)
+### ✅ Export Reports
+- Excel session reports
+- Shot-by-shot analysis
+- Performance comparison
 
-## 📁 Project Structure
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Canvas API
+- Camera API (getUserMedia)
+- XLSX.js
+
+---
+
+## 📸 Screens Included
+
+- Futuristic Login Interface
+- Camera Calibration Screen
+- Live Shooting Session HUD
+- Digital Simulator Target
+- Advanced Results Dashboard
+
+---
+
+## 📂 Project Structure
+
+```bash
+project-folder/
+│
+├── index.html
+├── style.css
+├── assets/
+│   ├── favicon.png
+│   ├── target_board.png
+│   └── logo.png
+│
+└── README.md
+```
+
+---
+
+## ⚡ How to Run
+
+1. Download or clone the repository
+
+```bash
+git clone <https://github.com/shreyas384/NCC-laser-simulator.git>
+```
+
+2. Open project folder
+
+3. Run using Live Server in VS Code
+OR
+
+Simply open:
+
+```bash
+index.html
+```
+
+in browser.
+
+---
+
+## 🎯 Future Improvements
+
+- AI shot pattern analysis
+- Multiplayer shooting sessions
+- Firebase leaderboard integration
+- Voice coaching assistant
+- OpenCV target auto-detection
+- Augmented Reality aiming system
+- Cloud session storage
+
+---
+
+## 👨‍💻 Developer
+
+Shreyas Pawade
+
+Electronics & Telecommunication Engineering  
+Final Year Project — Smart Laser Shooting Simulator
+
+---
+
+## 📜 License
+
+This project is developed for educational and research purposes.
