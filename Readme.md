@@ -1,4 +1,4 @@
-# 🎯 NCC Smart Laser Shooting Simulator
+# 🎯 Smart Laser Shooting Simulator
 
 A futuristic AI-powered laser shooting practice simulator designed for NCC cadets and beginner shooters.
 
